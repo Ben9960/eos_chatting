@@ -1,4 +1,4 @@
-# eos_chatting
+# chatting
 
 A new Flutter project.
 
