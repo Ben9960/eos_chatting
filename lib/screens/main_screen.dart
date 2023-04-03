@@ -271,7 +271,7 @@ class _LoginSignUpScreenState extends State<LoginSignUpScreen> {
                   width: 90,
                   decoration: BoxDecoration(
                     color: Colors.white,
-                    borderRadius: BorderRadius.circular(50),
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
                   ),
                   child: Container(
                     decoration: BoxDecoration(
@@ -279,7 +279,7 @@ class _LoginSignUpScreenState extends State<LoginSignUpScreen> {
                             colors: [Colors.lightGreen, Colors.green],
                             begin: Alignment.topLeft,
                             end: Alignment.bottomRight),
-                        borderRadius: BorderRadius.circular(30),
+                        borderRadius: BorderRadius.all(Radius.circular(30)),
                         boxShadow: [
                           BoxShadow(
                               color: Colors.black.withOpacity(0.3),
