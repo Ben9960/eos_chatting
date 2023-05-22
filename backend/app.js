@@ -29,7 +29,7 @@ const connectionPool = mysql.createPool({
     insecureAuth:true,
 });
 
-exports.getConnectionbPool = (callback) =>{
+exports.getConnectionPool = (callback) =>{
     connectionPool.getConnection((err, conn)=>{
     if(!err) callback(conn);
     console.log(err)
